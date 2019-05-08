@@ -2,29 +2,9 @@ body {
     color: black;
 }
 
-#navegador {
-    background: white;
-    width: 98.5%;
-    border: 2px solid #0026ff;
-    float: left;
-    cursor: pointer;
-}
-
-#navegador li {
-    display: inline-block;
-    list-style: none;
-    border-radius: 0;
-    padding: 5px;
-    border: 1px solid #0026ff;
-    text-align: center;
-    font: bold 14px verdana;
-    color: #5191F5;
-    background: white;
-}
-
 .titulo1 {
     color: aqua;
-    text-align: center
+    text-align: center;
 }
 
 .titulo2 {
@@ -35,4 +15,30 @@ body {
 .titulo3 {
     color: aqua;
     text-align: center
+}
+
+.piepag {
+    float: none;
+    padding: 15px;
+    margin: 5px;
+    color: rgb(29, 27, 27);
+    background: #4b78ac;
+}
+
+a:link {
+    border: 1px solid #0026ff;
+    text-align: center;
+    font: bold 14px verdana;
+    color: darkcyan;
+    background: black;
+}
+
+a:hover {
+    color: white;
+    background: darkcyan;
+}
+
+a:visited {
+    color: black;
+    background: cyan
 }
