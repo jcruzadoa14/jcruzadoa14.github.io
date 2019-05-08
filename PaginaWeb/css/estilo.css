@@ -1,0 +1,38 @@
+body {
+    color: black;
+}
+
+#navegador {
+    background: white;
+    width: 98.5%;
+    border: 2px solid #0026ff;
+    float: left;
+    cursor: pointer;
+}
+
+#navegador li {
+    display: inline-block;
+    list-style: none;
+    border-radius: 0;
+    padding: 5px;
+    border: 1px solid #0026ff;
+    text-align: center;
+    font: bold 14px verdana;
+    color: #5191F5;
+    background: white;
+}
+
+.titulo1 {
+    color: aqua;
+    text-align: center
+}
+
+.titulo2 {
+    color: aqua;
+    text-align: center
+}
+
+.titulo3 {
+    color: aqua;
+    text-align: center
+}
