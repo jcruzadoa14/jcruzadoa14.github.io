@@ -6,6 +6,10 @@ body {
     color: black;
 }
 
+#bodyl {
+    background-color: rgb(130, 179, 243);
+}
+
 header {
     /*float: left;*/
     text-align: center;
@@ -19,6 +23,11 @@ header {
 
 .titulo1 {
     color: aqua;
+    text-align: center;
+}
+
+.titulo2 {
+    color: white;
     text-align: center;
 }
 
@@ -92,6 +101,10 @@ a:hover {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+}
+
+#ciudad {
+    text-align: center
 }
 
 td:hover {
