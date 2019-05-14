@@ -2,10 +2,6 @@
     width: 100%
 }
 
-body {
-    color: black;
-}
-
 #bodyl {
     background-color: rgb(130, 179, 243);
 }
@@ -104,6 +100,10 @@ a:hover {
 }
 
 #ciudad {
+    text-align: center
+}
+
+#fuera {
     text-align: center
 }
 
