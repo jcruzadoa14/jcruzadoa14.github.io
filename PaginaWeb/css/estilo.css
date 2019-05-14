@@ -1,5 +1,20 @@
+#agrupar {
+    width: 100%
+}
+
 body {
     color: black;
+}
+
+header {
+    /*float: left;*/
+    text-align: center;
+    color: white;
+    /*font: bold 19px sutro;
+    width: 98.7%;*/
+    background: #5191F5;
+    border: 1px solid #0026ff;
+    position: center;
 }
 
 .titulo1 {
@@ -7,12 +22,33 @@ body {
     text-align: center;
 }
 
-.titulo2 {
-    color: aqua;
-    text-align: center
+.seccion1 {
+    color: black;
+    background: #808080
 }
 
-.piepag {
+
+/*#det1 {
+    float: right
+}
+
+#det2 {
+    float: left
+}
+*/
+
+#columna {
+    display: block;
+    /*float: right;*/
+    /*width: 60%;*/
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    background: #000000;
+    /*background:#8FBC8B;*/
+}
+
+#piepag {
     float: none;
     padding: 15px;
     margin: 5px;
@@ -22,10 +58,9 @@ body {
 
 #navegador {
     background: white;
-    width: 98.5%;
-    border: 2px solid #0026ff;
+    width: 100%;
+    /*border: 2px solid #0026ff;*/
     float: left;
-    cursor: pointer;
 }
 
 #navegador li {
@@ -42,19 +77,19 @@ body {
 }
 
 a:link {
-    border: 1px solid #0026ff;
-    text-align: center;
-    font: bold 14px verdana;
+    background-color: black;
     color: darkcyan;
-    background: black;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
 
 a:hover {
+    background-color: #5191F5;
     color: white;
-    background: darkcyan;
-}
-
-a:visited {
-    color: black;
-    background: cyan
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
 }
