@@ -93,3 +93,7 @@ a:hover {
     text-decoration: none;
     display: inline-block;
 }
+
+td:hover {
+    background: #5191F5;
+}
