@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(59, 90, 230);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    width: 1200px;
+    margin: auto;
+}
+
+#logo {
+    background: url(../img/trabajadores.png) no-repeat right;
+    background-size: 35%;
+    padding: 20cm 0cm 0cm 0cm;
+    text-transform: uppercase;
+}
+
+#logo h1 a {
+    margin: 0cm;
+    padding: 0cm 0cm 0cm 0cm;
+    letter-spacing: -.1cm;
+    text-decoration: none;
+    font-size: 2cm;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+#subtitulo {
+    padding: 0cm;
+    margin-top: 1cm;
+    font-size: 2cm;
+    font-weight: bold;
+    color: aliceblue
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    margin-right: 0.12cm;
+    padding: 1cm, 1.5cm;
+    background: blue;
+    box-shadow: inset 0px 2px 0px 0px (rgba(0, 0, 0, 25));
+    text-decoration: none;
+    text-shadow: 1px 1px 0px rgb(69, 69, 151);
+    text-transform: uppercase;
+    font-size: 0.90cm;
+    color: aliceblue
+}
+
+#seccion {
+    width: 11500px;
+    padding: 20px 40px;
+    background: rgb(69, 69, 151);
+    height: 200px;
+}
+
+.derecha {
+    margin: -5px 20px 0px 0px;
+    float: left;
+    width: 60%;
+}
+
+footer {
+    text-align: center
+}

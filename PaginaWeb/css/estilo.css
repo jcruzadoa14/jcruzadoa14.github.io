@@ -1,39 +1,38 @@
-#agrupar {
-    width: 100%
-}
-
-#bodyl {
-    background-color: rgb(130, 179, 243);
-}
-
-header {
-    /*float: left;*/
-    text-align: center;
-    color: white;
-    /*font: bold 19px sutro;
-    width: 98.7%;*/
-    background: #5191F5;
-    border: 1px solid #0026ff;
-    position: center;
-}
-
-.titulo1 {
-    color: aqua;
-    text-align: center;
-}
-
-.titulo2 {
-    color: white;
-    text-align: center;
-}
-
-.seccion1 {
-    color: black;
-    background: #808080
-}
-
-
-/*#det1 {
+        #agrupar1 {
+            display: block;
+            float: left
+        }
+        
+        #bodyl {
+            background-color: rgb(130, 179, 243);
+        }
+        
+        header {
+            /*float: left;*/
+            text-align: center;
+            color: white;
+            /*font: bold 19px sutro;
+            width: 98.7%;*/
+            background: #5191F5;
+            border: 1px solid #0026ff;
+            position: center;
+        }
+        
+        .titulo1 {
+            color: aqua;
+            text-align: center;
+        }
+        
+        .titulo2 {
+            color: white;
+            text-align: center;
+        }
+        
+        .seccion1 {
+            color: black;
+            background: #808080
+        }
+        /*#det1 {
     float: right
 }
 
@@ -41,72 +40,76 @@ header {
     float: left
 }
 */
-
-#columna {
-    display: block;
-    /*float: right;*/
-    /*width: 60%;*/
-    padding: 15px;
-    margin: 5px;
-    color: white;
-    background: #000000;
-    /*background:#8FBC8B;*/
-}
-
-#piepag {
-    float: none;
-    padding: 15px;
-    margin: 5px;
-    color: rgb(29, 27, 27);
-    background: #4b78ac;
-}
-
-#navegador {
-    background: white;
-    width: 100%;
-    /*border: 2px solid #0026ff;*/
-    float: left;
-}
-
-#navegador li {
-    display: inline-block;
-    float: left;
-    list-style: none;
-    border-radius: 0;
-    padding: 5px;
-    border: 1px solid #0026ff;
-    text-align: center;
-    font: bold 14px verdana;
-    color: #5191F5;
-    background: white;
-}
-
-a:link {
-    background-color: black;
-    color: darkcyan;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-a:hover {
-    background-color: #5191F5;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
-#ciudad {
-    text-align: center
-}
-
-#fuera {
-    text-align: center
-}
-
-td:hover {
-    background: #5191F5;
-}
+        
+        #columna {
+            display: block;
+            float: left;
+            padding: 15px;
+            margin: 5px;
+            color: white;
+            background: #32aec4
+            /*background:#8FBC8B;*/
+        }
+        
+        #piepag {
+            display: block;
+            clear: both;
+            padding: 15px;
+            margin: 5px;
+            color: rgb(29, 27, 27);
+            background: #4b78ac;
+        }
+        
+        #navegador {
+            background: white;
+            width: 100%;
+            /*border: 2px solid #0026ff;*/
+            float: left;
+        }
+        
+        #navegador li {
+            display: inline-block;
+            float: left;
+            list-style: none;
+            border-radius: 0;
+            padding: 5px;
+            border: 1px solid #0026ff;
+            text-align: center;
+            font: bold 14px verdana;
+            color: #5191F5;
+            background: white;
+        }
+        
+        #navegador a {
+            color: white
+        }
+        
+        a:link {
+            background-color: black;
+            color: rgb(190, 236, 236);
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        a:hover {
+            background-color: #5191F5;
+            color: white;
+            padding: 8px 16px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        #ciudad {
+            text-align: center
+        }
+        
+        #fuera {
+            text-align: center
+        }
+        
+        td:hover {
+            background: #5191F5;
+        }
