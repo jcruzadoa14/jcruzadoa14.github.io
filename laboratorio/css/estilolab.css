@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(243, 225, 201);
+    width: 900px;
+    margin: auto;
+}
+
+.logo {
+    float: left;
+}
+
+#titulo {
+    display: inline-block;
+}
+
+#navegacion {
+    display: block;
+}
+
+#menu,
+#subtitulo {
+    display: inline-block;
+}
+
+#menu li {
+    display: block;
+    float: right;
+    margin-left: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black
+}
+
+#linea {
+    width: 900px;
+    height: 5px;
+}
+
+#imagen1 {
+    width: 900px;
+    border-radius: 12px;
+}
+
+section {
+    display: block;
+    float: left;
+    width: 600px;
+}
+
+section article {
+    text-align: justify;
+}
+
+aside {
+    float: right;
+    background-color: grey;
+    width: 280px;
+    height: 400px;
+    border-radius: 12px;
+}
+
+#imgburro {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    display: block;
+    clear: both;
+}
+
+#lineaf {
+    width: 900px;
+    height: 5px;
+}
+
+#flechaf {
+    display: block;
+    margin: auto;
+}
+
+footer div {
+    float: left;
+    width: 33%;
+}
+
+footer div ul {
+    float: left;
+    font-size: 100%
+}
