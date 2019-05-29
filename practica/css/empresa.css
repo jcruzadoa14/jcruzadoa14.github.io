@@ -1,0 +1,78 @@
+/*#columna,
+#navegador {
+    display: inline-block;
+    margin: auto;
+}*/
+
+#navegador {
+    background-color: rgb(223, 223, 219);
+    display: block;
+    float: left;
+    width: 30%;
+    height: 350px;
+}
+
+#columna {
+    display: inline-block;
+    width: 70%;
+}
+
+header h1 {
+    color: rgb(109, 177, 241)
+}
+
+#enlaces {
+    display: block;
+    float: left;
+    width: 40%;
+}
+
+#enlacesl li {
+    display: block;
+    margin-left: 10px;
+    margin: 10px;
+}
+
+#enlacesl li a {
+    text-decoration: none;
+    color: rgb(109, 177, 241)
+}
+
+#imagen {
+    width: 350px;
+    height: 160px;
+}
+
+aside {
+    float: right;
+    width: 40%;
+}
+
+aside p {
+    color: #5191F5;
+}
+
+#menu li {
+    display: block;
+    margin-left: 10px;
+    margin: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black
+}
+
+a:hover {
+    background-color: #5191F5;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+a:active {
+    background-color: #5191F5;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
