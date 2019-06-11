@@ -1,0 +1,139 @@
+/*
+ESTILOS.CSS
+
+*/
+
+html,
+body {
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+/* cover */
+
+#cover {
+    background: #222 url('../img/wallpaper.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#cover-texto {
+    width: 100%;
+}
+
+#cover-texto .form-inline {
+    width: 100%;
+}
+
+
+/* lugares */
+
+#lugares {
+    background: #222 url('../img/belen-cajamarca.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 65%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#lugares-texto {
+    width: 100%;
+}
+
+#lugares-texto .form-inline {
+    width: 100%;
+}
+
+.contenido-seccion {
+    padding: 5rem 0;
+}
+
+#acerca-de {
+    background: url('../img/Contacto.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#acerca-de-Caj {
+    background: url('../img/cajamarca.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+#iconos {
+    display: block;
+}
+
+#iconos a {
+    display: inline-block;
+}
+
+.texto-acerca-de {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.875rem;
+}
+
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
+
+
+/* ==========================================
+	Estilos para la barra de redes sociales
+============================================*/
+
+.red {
+    position: fixed;
+    top: 200px;
+    z-index: 100;
+    left: 0;
+}
+
+.red .item {
+    padding: 5px 20px;
+    width: 20px;
+    -transition: all 500ms ease;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+}
+
+.red .item:hover {
+    padding: 5px 30px;
+    background: #000;
+}
+
+.red .red-facebook {
+    background: #3b5998;
+}
+
+.red .red-twitter {
+    background: #55acee;
+}
+
+.red .red-instagram {
+    background: #3f729b;
+}
+
+.red .red-youtube {
+    background: #ff0000;
+}
+
+.red .red-pinterest {
+    background: #cb2027;
+}
+
+.red .red-email {
+    background: #007bb5;
+}

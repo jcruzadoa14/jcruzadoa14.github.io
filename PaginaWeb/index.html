@@ -11,12 +11,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Jhoel Cruzado</title>
     <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="author" content="Jhoel Cruzado Abanto" />
     <meta name="description" content="Pagina personal HTML, index" />
 
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<link rel="stylesheet" href="css1/estilo.css">-->
 </head>
 
 <body id="bodyin">
@@ -27,19 +28,31 @@
     <script src="" async defer></script>
 
     <header>
-        <h1>Jhoel Cruzado Abanto</h1>
-        <p>pagina personal</p>
+        <div class="container-fluid">
+            <h1>Jhoel Cruzado Abanto</h1>
+            <p>pagina personal</p>
+        </div>
         <!--Enlaces de navegación -->
-        <nav id="navegador">
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="#perfil">PERFIL</a></li>
-                <li><a href="#estudios">ESTUDIOS</a></li>
-                <li><a href="#hobbies">HOBBIES</a></li>
-                <li><a href="lugares.html">LUGARES TURISTICOS</a></li>
-                <li><a href="contact.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+        <ul class="nav nav-pills nav-justified">
+            <li class="nav-item">
+                <a class="nav-link active" href="">HOME</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#perfil">PERFIL</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#estudios">ESTUDIOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#hobbies">HOBBIES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lugares.html">LUGARES TURISTICOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">CONTACTO</a>
+            </li>
+        </ul>
     </header>
     <hr>
 
@@ -117,8 +130,8 @@
         <address>Autor: Jhoel Cruzado Abanto <br/> Ultima modificacion: mayo del 2019</address>
     </footer>
 
-
-
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
